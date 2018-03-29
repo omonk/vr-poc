@@ -1,6 +1,6 @@
-# visual-regression-demo
+# visual regression proof of concept
 
-Small proof of concept to demo a visual regression solution using `storybook-chrome-screenshot` and `reg-suit`
+Proof of concept to demo a visual regression solution using `storybook-chrome-screenshot` and `reg-suit` integrated into TeamCity with reg-suit github app
 
 ## What to do
 
@@ -8,7 +8,7 @@ Clone this repository, and install the required dependencies:
 
 ```
 git clone git@github.com:omonk/vr-poc.git
-cd visual-regression-demo
+cd vr-poc
 npm i
 ```
 
