@@ -1,0 +1,19 @@
+{
+  "reference-url": "https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md",
+  "rules": [{
+    "id": "color-contrast",
+    "enabled": false
+  }, {
+    "id": "region",
+    "enabled": false
+  }, {
+    "id": "skip-link",
+    "enabled": false
+  }, {
+    "id": "meta-viewport",
+    "enabled": false
+  }, {
+    "id": "bypass",
+    "enabled": false
+  }]
+}

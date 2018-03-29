@@ -1,0 +1,21 @@
+{
+  "core": {
+    "workingDir": ".reg",
+    "actualDir": "__snapshots__",
+    "threshold": 0,
+    "addIgnore": true,
+    "thresholdRate": 0,
+    "ximgdiff": {
+      "invocationType": "client"
+    }
+  },
+  "plugins": {
+    "reg-publish-s3-plugin": {
+      "bucketName": "reg-suit-regression-testing"
+    },
+    "reg-keygen-git-hash-plugin": {},
+    "reg-notify-github-plugin": {
+      "clientId": "MzQyNzIztTQw1S8r0i3IT9Y3NLQ0MrDQz8/Nz8sGAA=="
+    }
+  }
+}
