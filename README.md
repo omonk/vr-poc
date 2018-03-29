@@ -15,11 +15,18 @@ npm i
 Start storybook to get familiar with the current components, also check the code
 in `src/Hello.jsx`
 
-```
-npm run storybook
-```
-
 As you can see, we only have a single component that either shows a string, if a prop message was given, or it displays a default 'Hello World' message that receives through react-intl.
+
+## Proposed Workflow
+- New feature/fix/etc branches from master
+- New commits
+- Open PR
+- TeamCity CI triggers script to run `npm run full-visual-regression-test`
+- reg-suit adds comment to PR approving or blocking
+- Changes are made or PR is approved by a reviewer 
+- PR is merged
+- After merge CI triggers another build step to update snapshots file with the most up to date versions of stories
+- Rinse and repeat  
 
 ## What's happening?
 
