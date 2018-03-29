@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 export default ({ message }) => (
   <div>
     {message && message.length ? message : <FormattedMessage id="world" />}
-    FOOOOOO! - TEST TEST TEST
+    FOOOOOO!
+    BAAAAAR!
   </div>
 );
