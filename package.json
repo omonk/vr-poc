@@ -9,7 +9,7 @@
     "build-storybook": "build-storybook",
     "screenshot": "storybook-chrome-screenshot -p 6006 -c .storybook -o __snapshots__",
     "regression": "reg-suit run",
-    "full-test": "npm run screenshot && npm run regression"
+    "full-visual-regression-test": "npm run screenshot && npm run regression"
   },
   "keywords": [],
   "author": "",
@@ -33,6 +33,7 @@
     "jest": "^22.4.2",
     "react-test-renderer": "^16.2.0",
     "reg-keygen-git-hash-plugin": "^0.7.1",
+    "reg-notify-github-plugin": "^0.7.1",
     "reg-publish-s3-plugin": "^0.7.1",
     "reg-suit": "^0.7.1",
     "storybook-addon-intl": "^2.3.0",
