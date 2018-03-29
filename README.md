@@ -1,6 +1,6 @@
 # visual regression proof of concept
 
-Proof of concept to demo a visual regression solution using `storybook-chrome-screenshot` and `reg-suit` integrated into TeamCity with reg-suit github app
+Proof of concept to demo a visual regression solution using `storybook-chrome-screenshot` and `reg-suit` integrated into TeamCity with reg-suit github app. Example report [here](https://reg-suit-regression-testing.s3.amazonaws.com/52992d488a6d705f5e7b83823a9b8718f1e687a1/index.html)
 
 ## What to do
 
