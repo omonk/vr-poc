@@ -34,7 +34,7 @@ package.json scripts includes `screenshot`, `regression` and a combo of the two 
 - reg-suit comes with a github notify plugin, allowing failing tests to block PR. PR becomes unblocked when PR is approved by a reviewer.
 
 ## Conclusion
-- Ideally we would run these 
+- Ideally we would run these in TeamCity on the creation of a PR, not locally on commit or push.
 - Reports are concise and provide a clear display of whats changed
 - Provides a detailed audit within the Github repo and AWS S3 bucket
 - Concerns about running in TeamCity with such a large number of stories.
